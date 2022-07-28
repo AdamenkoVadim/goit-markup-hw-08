@@ -1,3 +1,22 @@
+.header-nav {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+
+.header-addres-wrapper {
+    margin-left: auto;
+    align-items: center;
+    display: none;
+
+    @media screen and (min-width: 768px) {
+            display: block;
+    }
+
+}
+
 .header-list-contact {
     display: flex;
     justify-content: end;
