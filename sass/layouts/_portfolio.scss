@@ -5,6 +5,26 @@
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.btn-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-left: 0;
+
+        @media screen and (max-width: 768px) {
+            flex-wrap: wrap;
+            justify-content: start;
+        
+        @media screen and (min-width: 768px) {
+            ustify-content: center;
+        }
+
+    
+}
+}
+
 .filter-title {
     font-weight: 700;
     font-size: 18px;
