@@ -1,14 +1,11 @@
 .footer {
     background-color: $accent-bg-color;
     padding: 60px 0;
-
-        @media screen and (min-width: 1200px) {
-            padding-top: 0;
-        }
-
 }
 
 .footeradress {
+
+
     @media screen and (min-width: 1200px) {
         display: flex;
         align-items: baseline;
@@ -97,11 +94,11 @@
         justify-content: center;
         gap: 165px;
         align-items: baseline;
+        margin-bottom: 60px;
     }
     
     @media screen and (min-width: 1200px) {
         display: flex;
-        gap: 70px;
         align-items: baseline;
     }
 }
@@ -122,7 +119,7 @@
         
     @media screen and (min-width: 1200px) {
         //margin-left: 70px;
-        margin-right: 93px;
+        margin-right: 83px;
         margin-top: 0;
         margin-bottom: 0;
     }

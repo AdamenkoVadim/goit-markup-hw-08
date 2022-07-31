@@ -18,7 +18,8 @@
 .about__list {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /*align-items: center;
+    */
     justify-content: space-between;
 
     @media screen and (min-width: 768px) {
@@ -31,6 +32,7 @@
 
     @media screen and (min-width: 768px) {
         width: calc((100% - 1 * 30px) / 2);
+        margin-bottom: 30px;
     }
     @media screen and (min-width: 1200px) {
         width: 270px;
@@ -44,7 +46,6 @@
     color: $description-color;
 
     text-align: left;
-    margin-bottom: 0;
 }
 
 .about__icon-item {
