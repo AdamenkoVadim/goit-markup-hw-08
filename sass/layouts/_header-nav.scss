@@ -24,12 +24,14 @@
 
     @media screen and (min-width: 768px) {
         display: flex;
-        justify-content: flex-start;
-        margin-left: 90px;
+        align-items: flex-start;
+        margin-left: auto;
+        flex-direction: column;
     }
     @media screen and (min-width: 1200px) {
         display: flex;
         justify-content: flex-start;
+        flex-direction: row;
         margin-left: 0;
     }
 }

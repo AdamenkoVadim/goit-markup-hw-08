@@ -110,10 +110,14 @@
   gap: 10px;
 
   font-weight: 500;
-  font-size: 18px;
+  font-size: 10px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: $accent-color;
+
+  @media screen and (min-width: 480px) {
+    font-size: 18px;
+  }
 }
 
 .mobile-menu-socials-item:not(:last-child) .mobile-menu-socials-link {
