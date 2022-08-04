@@ -1,11 +1,15 @@
 .about__title {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.14;
     text-transform: uppercase;
 
     text-align: center;
     margin-bottom: 10px;
+    
+    @media screen and (min-width: 480px) {
+        font-size: 14px;
+    }
 
     @media screen and (min-width: 768px) {
         text-align: left;
@@ -26,7 +30,12 @@
 }
 
 .about__item {
-    width: 100%;
+    width: calc((100% - 1 * 10px) / 2);
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 480px) {
+        width: 100%;
+    }
 
     @media screen and (min-width: 768px) {
         width: calc((100% - 1 * 30px) / 2);
@@ -39,11 +48,14 @@
 
 .about__description {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 8px;
     line-height: 1.71;
     color: $description-color;
 
     text-align: left;
+    @media screen and (min-width: 480px) {
+        font-size: 14px;
+    }
 }
 
 .about__icon-item {
