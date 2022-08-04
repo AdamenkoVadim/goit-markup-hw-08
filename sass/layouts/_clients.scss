@@ -13,18 +13,13 @@
     }
 }
 
-.clients__item:not(:first-child) {
-    @media screen and (min-width: 1200px) {
-    margin-left: 30px;
-   }
-}
+
 
 .clients__logo-link {
     color: $icons-color-noactive;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 210px;
     min-height: 92px;
     background-color:$white-color;
     border-radius: 1%;
@@ -37,16 +32,34 @@
      outline: 1px solid $accent-color;
     }
 
-    @media screen and (min-width: 768px) {
-        min-width: 226px;
-    }
-            
-    @media screen and (min-width: 1200px) {
-        min-width: 170px;
-    }
+    
 }
 
 
 .clieny__logo-icon {
     fill: currentColor;
+}
+
+
+.clients__item{
+
+    min-width: calc((100% - 1 * 30px) / 2);
+    @media screen and (min-width: 480px) {
+        min-width: 210px;
+    }
+
+
+    @media screen and (min-width: 768px) {
+        min-width: 226px;
+    }
+            
+    @media screen and (min-width: 1200px) {
+       min-width: 170px;
+    }
+}
+.clients__item:not(:first-child) {
+    @media screen and (min-width: 1200px) {
+    margin-left: 30px;
+     
+   }
 }
